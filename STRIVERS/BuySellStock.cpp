@@ -15,7 +15,7 @@ int main()
             {
                 int p = 0;
                 p = prices[j] - prices[i];
-                cout << "(" << prices[j] << "--" << prices[i] << ")"
+                cout << "(" << prices[j] << "=" << prices[i] << ")"
                      << "=" << p << endl;
                 if (p > prof)
                 {
